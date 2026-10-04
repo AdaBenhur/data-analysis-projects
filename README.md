@@ -27,11 +27,6 @@ Two small statistical studies that use country-level data to answer questions ab
   * log10(GDP per capita) ~ log10(Population)	/ −0.184	/ 0.002 /	0.077
 
   Both relationships are statistically significant and support the predictions. The low R² values show that population size explains only a small part of the differences between countries.
-  
-  ### Files
-  PopulationAnalysis.ipynb: the analysis notebook
-  Is having a large population beneficial for a country_.pdf: the report
-  countries_statistics (2).csv: the dataset (country indicators, 2000–2015)
 
   
 ## 1.3 – Does a higher level of education lead to a more democratic society?
@@ -57,10 +52,6 @@ Two small statistical studies that use country-level data to answer questions ab
   
   The first prediction is supported. The second is not, once schooling is controlled for.
   
-  ### Files
-  Democracy.ipynb: the analysis notebook
-  Does a higher level of education lead to a more democratic society.pdf: the report
-  gdp-per-capita-maddison-project-database.csv, mean-years-of-schooling-long-run.csv, political-regime.csv: the source datasets (Our World in Data)
 
 ## How to run
 pip install pandas numpy seaborn matplotlib statsmodels networkx scipy jupyter
