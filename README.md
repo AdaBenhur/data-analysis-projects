@@ -1,7 +1,5 @@
 # data-analysis-projects
-
-Data Analysis Projects
-Author: Ayşegül Ada Benhür
+## Author: Ayşegül Ada Benhür
 
 Two small statistical studies that use country-level data to answer questions about development and society. Each project includes a Jupyter notebook with the full analysis and a PDF report that summarises it.
 
@@ -10,7 +8,7 @@ Project	Question	/ Method	/ Data year
 1.3 – Education & Democracy:	Does a higher level of education lead to a more democratic society? /	Multivariate logistic regression /	2020
 
 
-1.2 – Is having a large population beneficial for a country?
+## 1.2 – Is having a large population beneficial for a country?
   Predictions
   * Countries with larger populations tend to have lower life expectancy.
   * Countries with larger populations tend to have lower GDP per capita.
@@ -33,9 +31,9 @@ Project	Question	/ Method	/ Data year
   countries_statistics (2).csv: the dataset (country indicators, 2000–2015)
 
   
-1.3 – Does a higher level of education lead to a more democratic society?
+## 1.3 – Does a higher level of education lead to a more democratic society?
 
-  Causal assumptions (DAG)
+    Causal assumptions (DAG)
   GDP per capita → Schooling → Democracy, and GDP per capita → Democracy. GDP per capita is treated as a confounder, so the model controls for it.
   
   Predictions
